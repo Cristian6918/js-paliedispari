@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    text-align:center;
+    color:rgb(255,255,255);
+}
+
+.blocco{
+    height: 100vh;
+    background-color:rgb(181,181,181);
+}
+.tab{
+    box-shadow:0px 11px 30px 7px #454545;
+    border-radius:50px;
+    width:80%;
+    margin:auto;
+    height: 40vh;
+    background-color: rgb(52,52, 52);
+}
+
+input,
+select,
+.ct_btn{
+    background-color:rgb(141,141,141);
+    box-shadow:0px 11px 30px 7px #454545;
+    border:none;
+    border-radius:10px;
+}
