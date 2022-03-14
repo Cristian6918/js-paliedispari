@@ -7,12 +7,9 @@ checkBtn.addEventListener('click', function () {
     const string2 = reverseString(string1);
     let result = document.querySelector('#result');
     if (string1 === '') {
-
         result.innerText = 'Inserire una parola!';
-
     } else if (string1.toUpperCase() === string2.toUpperCase()) {
         result.innerText = 'La parola è palindroma!';
-
     } else {
         result.innerText = 'La parola non è palindroma!';
     }
@@ -38,16 +35,14 @@ btn.addEventListener('click', function () {
     const pcnumber = Math.floor(Math.random() * 5) + 1;
     const pcGen = document.querySelector('#pc-gen');
     pcGen.innerText = `Numero Generato dal Computer: ${pcnumber}`;
-    console.log('numero PC', pcnumber);
+
     const somma = parseInt(number) + parseInt(pcnumber);
 
     res = EvenOdd(somma);
     // controllo se il risultato della funzione EvenODD è uguale a quello selezionato dall'utente
     if (res === selected) {
-        console.log("hai vinto");
         result2.innerText = 'Hai vinto';
     } else {
-        console.log('hai perso');
         result2.innerText = 'Hai perso';
     }
 })
